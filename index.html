@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cosmic Route VPN</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Courier New', monospace;
+            background: linear-gradient(135deg, #0f0f0f 0%, #1a0f2e 50%, #0f0f0f 100%);
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 20px;
+            color: #fff;
+        }
+
+        .container {
+            max-width: 500px;
+            width: 100%;
+            text-align: center;
+        }
+
+        .header {
+            margin-bottom: 40px;
+        }
+
+        .logo {
+            font-size: 48px;
+            font-weight: bold;
+            margin-bottom: 10px;
+            background: linear-gradient(45deg, #a78bfa, #ec4899);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            letter-spacing: 2px;
+            text-transform: uppercase;
+        }
+
+        .tagline {
+            font-size: 14px;
+            color: #888;
+            letter-spacing: 3px;
+            text-transform: uppercase;
+            margin-bottom: 20px;
+        }
+
+        .description {
+            font-size: 14px;
+            line-height: 1.6;
+            color: #aaa;
+            margin-bottom: 30px;
+        }
+
+        .buttons {
+            display: flex;
+            flex-direction: column;
+            gap: 12px;
+            margin-bottom: 40px;
+        }
+
+        .btn {
+            padding: 16px 24px;
+            border: 1px solid #333;
+            background: rgba(255, 255, 255, 0.05);
+            color: #fff;
+            text-decoration: none;
+            border-radius: 6px;
+            font-size: 14px;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            font-family: 'Courier New', monospace;
+            letter-spacing: 1px;
+        }
+
+        .btn:hover {
+            background: rgba(167, 139, 250, 0.1);
+            border-color: #a78bfa;
+            transform: translateX(4px);
+        }
+
+        .btn.primary {
+            border-color: #a78bfa;
+            background: rgba(167, 139, 250, 0.15);
+        }
+
+        .btn.primary:hover {
+            background: rgba(167, 139, 250, 0.25);
+            box-shadow: 0 0 20px rgba(167, 139, 250, 0.3);
+        }
+
+        .btn-icon {
+            font-size: 20px;
+        }
+
+        .footer {
+            font-size: 12px;
+            color: #555;
+            border-top: 1px solid #222;
+            padding-top: 20px;
+        }
+
+        .footer p {
+            margin-bottom: 8px;
+        }
+
+        .footer a {
+            color: #a78bfa;
+            text-decoration: none;
+        }
+
+        .footer a:hover {
+            text-decoration: underline;
+        }
+
+        .stars {
+            display: inline-block;
+            margin: 0 4px;
+            color: #ec4899;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <div class="logo">⚡ COSMIC ROUTE</div>
+            <div class="tagline">VPN без границ</div>
+            <div class="description">
+                Пока система строит стены - мы прокладываем туннели.
+                <br>Свобода не стоит дорого.
+            </div>
+        </div>
+
+        <div class="buttons">
+            <a href="https://t.me/CosmicRouteVPN_bot" class="btn primary">
+                <span>🚀 ВОЙТИ В БОТ</span>
+                <span class="btn-icon">→</span>
+            </a>
+            <a href="https://t.me/cosmicroutesupport" class="btn">
+                <span>💬 ПОДДЕРЖКА</span>
+                <span class="btn-icon">→</span>
+            </a>
+        </div>
+
+        <div class="footer">
+            <p>© 2024-2026 Cosmic Route VPN</p>
+            <p>Маршрут в обход <span class="stars">✦</span> Без цензуры <span class="stars">✦</span> Без логов</p>
+        </div>
+    </div>
+</body>
+</html>
